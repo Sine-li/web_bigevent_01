@@ -18,7 +18,7 @@ $.ajaxPrefilter(function (options) {
     }
 
     options.complete = function (res) {
-        console.log(res);
+        // console.log(re
         // 判断 如果是身份验证失败，跳转回登录页面
         if (res.responseJSON.status === 1 && res.responseJSON.message === "身份认证失败！") {
             // 1、强制删除本地的token

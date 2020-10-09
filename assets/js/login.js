@@ -12,7 +12,7 @@ $(function () {
 
     // 2、自定义校验规则
     // 从layui中导出form对象
-    var form = layui.form;
+    var form = layui.form;  
     form.verify({
         pwd: [
             /^[\S]{6,16}$/,
