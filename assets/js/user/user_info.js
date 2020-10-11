@@ -12,7 +12,6 @@ $(function () {
 
     // 初始化用户信息
     initUserInfo();
-
     // 初始化用户信息封装，后边还要用
     var layer = layui.layer;
     function initUserInfo() {

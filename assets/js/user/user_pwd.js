@@ -32,6 +32,7 @@ $(function () {
             data : $(this).serialize(),
             success :function (res) {
                 // 判断请求成功
+                console.log(res);
                 if (res.status !== 0){
                     return layui.layer.msg(res.message)
                 }
